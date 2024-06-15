@@ -33,6 +33,7 @@ const ImageUploader = ({ files, handleChange, handleDelete, handleImageClick, ha
               <UploadedImage 
                 key={index} 
                 file={file} 
+                alt="draggrop img"
                 index={index} 
                 handleDelete={handleDelete} 
                 handleImageClick={handleImageClick} 
