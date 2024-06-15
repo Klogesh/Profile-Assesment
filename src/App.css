@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.profileimg img {border-radius: 100px;width: 120px;height: 120px;object-fit: cover;border: 4px solid #fff;}
+.profileimg {width: fit-content;margin-top: -86px;margin-left: 32px;}
+#root {width: 600px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.baavatarimg img{width: 100%;}
+.updatebtn {position: relative;float: inline-end;margin-top: -40px;margin-right: 37px;}
+.updatebtn button {all: unset;box-shadow: 0px 1px 2px 2px #e5e5e5;padding: 10px 16px;border-radius: 4px;color: #171717;font-weight: 500;font-size: 16px;line-height: 24px;cursor: pointer; }
+.Profile-sec {background: #fff;box-shadow: 0px 0px 6px 3px #cdc9c9;border-radius: 7px;overflow: auto;padding: 0 0 25px;}
+.profilename {padding: 0 33px;    text-align: left;}
+.profilename h2{color: #171717;font-size: 30px;font-weight: 600;line-height: 36px;margin: 0 0 13px;}
+.profilename p {color: #171717;font-size: 17px;font-weight: 400;line-height: 32px;margin: 0;font-family: sans-serif;}
+.profilename p span {color: #525252;}
+.dragdrop {
+  position: absolute;
+  width: 70%;
+  border-radius: 8px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.5s linear;
+  background: #fff;
+  z-index: 9;
+  padding: 16px 26px 20px;
+  display: none;
+}
+.dragdrop.clicked{display: block;}
+
+label.sc-aXZVg.guZdik {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  background-color: #fafafa;
+  border: 1px solid #e5e5e5;
+}
+
+.uploaded-image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.clos-btn{all: unset;cursor: pointer;    float: inline-end;}
+
+
+.sc-eqUAAy.jWkLDY {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sc-eqUAAy.jWkLDY.file-types {
+  max-width: 100%;
+}
+
+.upbtn {
+  all: unset;
+  width: 182px;
+  margin: 0 12px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #beb7b7;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 9px 0px;
+  border-radius: 4px;
+}
+
+.upbtn.selectbtn{background: #4338CA;color: #fff; }
+.dragdropbtn {padding: 10px 0px;}
+
+.upbtn.selectbtn:hover{background:#3730A3 ;}
+
+@media screen and (max-width:450px){
+  body {
+    height: 100vh;
+}
+#root{width: 100%;}
+.baavatarimg img {  height: 139px;}
+
+.profilename h2 {
+  font-size: 24px;
+  line-height: 26px;
+}
+label.sc-aXZVg.guZdik {
+  width: 88% !important;
+  min-width: 79%;
+  padding: 10px;
+}
+span.sc-fqkvVR.kFhUBM {
+  font-size: 14px;line-height: 16px;
+}
+.drogbox img.uploadicon {
+  left: 38%;
+}
+.uploaded-image-preview {
+  width: 112px;
+  height: 61px;
+}
+.image-info p:first-child {
+  font-size: 13px;
+  line-height: 18px;
+}
+.dragdrop div>div .optbtn {
+  bottom: -2px;
+  left: 80px;
+}
+.upbtn {
+  width: 102px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 9px 0px;
+}
+.dragdrop.clicked {
+  display: block;
+  height: 400px;
+  overflow-y: scroll;
+}
+.crop-modal{height: 350px;}
+.crop-buttons .upbtn {
+  width: 56px;
+  font-size: 13px;
+}
+}
