@@ -22,7 +22,7 @@ const ImageUploader = ({ files, handleChange, handleDelete, handleImageClick, ha
       </div>
       
       <div className="drogbox">
-        <img src={uploadicon} className="uploadicon"/>
+        <img src={uploadicon} alt="updateimg" className="uploadicon"/>
       <FileUploader handleChange={handleChange} name="file" types={fileTypes} label={fileLabel} multiple /> 
       <p className="filelable2">{fileLabel2}</p>
       </div>
