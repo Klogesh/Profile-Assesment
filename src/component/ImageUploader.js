@@ -7,7 +7,7 @@ import uploadicon from '../asset/imaegs/Thumbnail Icons.png';
 const fileLabel = "Click or drag and drop to upload ";
 const fileLabel2 = "PNG or JPG (Max 5MB)";
 
-const fileTypes = ["PNG", "JPG", "JPEG"];
+const fileTypes = ["PNG", "JPG"];
 
 const ImageUploader = ({ files, handleChange, handleDelete, handleImageClick, handleCloseClick,  handleSelectProfileImage, selectedImageIndex, handleCroppedImage }) => {
 
