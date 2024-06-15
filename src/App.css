@@ -80,7 +80,10 @@ label.sc-aXZVg.guZdik {
   width: 100%;
   justify-content: space-between;
 }
-
+.dtlKip {
+    height: 139px !important;
+    border: 2px solid rgb(6, 88, 194) !important;
+}
 
 .clos-btn{all: unset;cursor: pointer;    float: inline-end;}
 
