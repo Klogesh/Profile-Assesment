@@ -15,7 +15,14 @@
 span.file-types {
     display: none;
 }
-
+.gwDiyc > span {
+    font-size: 19px;
+    color: #171717;
+    text-align: center;
+    font-weight: 500;
+    width: 89%;
+    margin-bottom: -19px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
