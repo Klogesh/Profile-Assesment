@@ -88,6 +88,7 @@ const UploadedImage = ({ file, index, handleDelete, handleImageClick, isSelected
           <AvatarEditor
             ref={editorRef}
             image={URL.createObjectURL(file)}
+            alt="avatar"
             width={250}
             height={250}
             border={50}
